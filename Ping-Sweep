@@ -1,0 +1,4 @@
+import os
+if __name__=='__main__':
+ for ip in range (1, 255):
+  print(os.system('ping -c 10.11.1.{0}'.format(ip)))
